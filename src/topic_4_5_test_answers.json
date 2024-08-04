@@ -1,0 +1,75 @@
+[
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      3
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      3
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Vercel uses centralized servers and data centers managed by a single entity while IPFS uses a distributed network of nodes where files are stored across multiple locations",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "https://vercel.com/linets-projects",
+    "options": null
+  }
+]

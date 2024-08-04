@@ -1,0 +1,361 @@
+[
+  {
+    "question_type": "oe",
+    "answer": "Enhancing scalability by leveraging zk-rollups and offloading computations which reduces congestion and speeds up transaction processing",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Zero-knowledge are a powerful cryptographic tool that enables starknet achieve its scalability and enhance security by verifying the integrity of off-chain transactions without revealing important information.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      3
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "High scalability due to off-chain execution and transaction building. Cost efficiency due to efficient computation and reduced gas fees. Enhanced privacy and interoperability with ethereum",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Starknet's mechanism focuses on securing off-chain transactions where as ethereum's proof-of-stake secures the entire blockchain. Starknet relies on the cryptograpgic propeties of zk-rollupwhile ethereum's poof-of-stake assumes trust in the validators.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Transfer involves a process named as bridging. Transfer from ethereum mainnet to starknet: 1. Deposit transaction 2. Verification on starknet. Transfer from starknet to ethereum mainnet: 1. Withdrawal request. 2. Verification on ethereum. 3. Asset release.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Starknet uses zk-rollups to bundle together multiple transactions into a single batch and at the same time generating zero-knowledge proofs that verify the integrity of the entire batch of transactions. Starknet executes transactions off-chain by processing them on starknet's virtual machine instead of on ethereum mainnet which leads to a reduction on the load on the ethereum network.",
+    "options": null
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Used in development of games, used in supply chain management, used in decentralized finance.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Technical complexity due to steep learning curve of zk-starks and cairo programming language. Latency since generating zk-starks can take time introducing delay in transaction processing. Data availability which is because off-chain data sources relied on by starknet can pose challenges for applications requiring real time data.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "It provides a fundamental data type which is versatile, compatible with cryptographic operations supporting efficientbexecution of zk-Stark proofs and ensuring consistency across starknet smart contracts and tools.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "trait Factorial: fn calculate(self:@self) -> felt; struct FactorialInput{ n: felt,} implFactorialimpl for FactorialInput{ fn calculate(self:@FactorialInput) -> felt{ if self.n == 0{ return 1;} else{ let smaller_input = FactorialInput{ n: self.n - 1}; return self.n * smaller_input.calculate(); } } } fn main(){ let input = FactorialInput { n: 5}; let result = input.calculate(); println(\"The factorial of \", [input.n]; println(\"is\", [result]);}",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "While as for taditional data which can be changed fter allocation, in Cairo once data is allocated, it cannot be modified in place. Cairo always has to manage memory allocation and deallocation which differs from traditional where the runtime automatically remains unused. Cairo language is specifically made for blockchain and zero-knowledge proof systems.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "felt variables are the basic data type in Cairo,representing elements of a finite field.They are crucial for the efficient and secure execution of smart contracts, providing a foundation for arithmetic operations, deterministic computation, and scalability. The use of felt aligns with the cryptographic requirements of zero-knowledge proofs, making them integral to the functioning of Cairo and starknet.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Ensure a deep understanding of Cairo's memory model and handle felt variables properly for arithmetic operations within the finite field. Emphasize immutability to avoid unintended side effects, optimize for gas efficiency by minimizing operations, and keep functions simple and modular. Implement traits for reusable behaviors, handle errors properly, and rigorously validate inputs.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "1. Project setup by installing foundry, creating a new project and initializing starknet foundry. 2. Write cairo contract after creating a contract file. 3. Configure foundry by updating foundry.toml. 4. Compile the contract with foundry. 5. Deploy the contract. 6. Interact with the contract using foundry's staknet-cli by getting the contact address and calling contract functions.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "It tells the compiler that this is a cairo smart contract module",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Purpose: Struct: Groups multiple fields together to form a composite type while Enum represents a value that can be one of several variants.  Usage: Struct  is used when you need to group related data together while Enum is used when a value can be one of several different types or options.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Reentrancy, integer overflow, access control, denial-of-service and race conditions",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Having regular code reviews and audits, leveraging built-in security features, having thorough testing and staying updated with the latest best practices and community knowledge.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "It involves setting up the frontend environment, connecting to Starknet using a provider like Starknet.js, defining the contract ABI and address, creating a contract instance and building the user interface to read and write data to the smart contract.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Straknet.js for building web applications that interact with starknet contracts. Argent X which is a wallet management library for starknet. Starknet React fo building react applications that interact with starknet contracts.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Dealing with the evolving ecosystem, integrating user wallets, managing network connectivity, handling smart contract interactions, ensuring security, testing and debugging, and managing integration complexity.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Dojo is used in game development.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "Easy integration with Starknet since it provides tools for deping and managing smart contracts on starknet. Access to community resources since it has a vibrant community of developers and entusiasts who contribute to its development. Scalability as it leverages starknets' high throughput and low gas fees.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Challenges: Integration complexity, user experience in terms of wallet integration and transaction confirmation, Scalability in terms of state storage for large-scale games.                    Opportunities: Decentralized ownership, enhanced security and transparency, community engagement.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "They provide a powerful tool for enhancing the performance, scalability, and user experience of blockchain-based gaming applications. By enabling fast, cost-efficient, and private off-chain transactions, state channels support real-time gameplay, complex multiplayer interactions, and dynamic in-game economies, all while maintaining the security and trustlessness of the underlying blockchain.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "1. get_random_number(seed: felt): the seed is a value that can introduce additional randomness or different random numbers are generated for the samr block.                                     2. get_block_timestamp(): retrieves the current block timestamp 3. hash2(block_timestamp, seed): the hash2 function from the hashbuiltin computes a hash of the block timestamp and the seed. produces a pseudo-random number based on the input values.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Decentralized exchanges, lending platforms, stablecoins, yield farming, derivatives, insurance, governance, tokenization, payment systems, and prediction markets.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Using built-in testing framework like cairo testing framework that cairo comes with,  starkney devnet local deployment which is done locally without interacting with mainnet, integration tests done by conducting integration tests to verify how the contract interacts with other contracts.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Starknet.js, starknet React, starknet.js for remix IDE, React and Next.js, Tailwind css and bootstrap",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "It involves integrating wallet-based authentication, implementing access control in smart contracts, managing user sessions, and ensuring secure communication.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "oe",
+    "answer": "By focusing on efficient data fetching and caching, minimizing smart contract interactions, improving UI responsiveness, optimizing network requests, handling errors gracefully, optimizing frontend code, leveraging Web3 technologies, and ensuring security.",
+    "options": null
+  },
+  {
+    "question_type": "oe",
+    "answer": "Future trends in the StarkNet ecosystem include advancements in  zk-rollup technology, integration with Ethereum upgrades, expansion into DeFi, NFTs, and gaming, enhanced developer tools, increased nteroperability, improved security measures, innovative governance and economic models, and the adoption of advanced cryptographic techniques.",
+    "options": null
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "sc",
+    "answer": null,
+    "options": [
+      0
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      3
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      4
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      2
+    ]
+  },
+  {
+    "question_type": "mc",
+    "answer": null,
+    "options": [
+      1
+    ]
+  }
+]
